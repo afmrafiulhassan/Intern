@@ -1,0 +1,53 @@
+<svg width="280" height="60" viewBox="0 0 280 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!--
+    CarKinbo – dynamic logo variant
+
+    This alternative mark introduces more energy and motion into the design while retaining the core themes of car exchange and the orange brand colour.  
+    A sweeping pair of arrows form a circular loop, rendered with a warm orange–to–gold gradient to give the impression of movement and transformation.  
+    Behind the car icon, three trailing lines suggest speed and momentum.  The car itself remains simple and friendly, with orange wheels tying back into the overall palette.  
+    The wordmark is set in a slightly italic style to convey forward motion, with the “Car” portion in orange and “Kinbo” in a solid dark tone for contrast.
+  -->
+
+  <defs>
+    <!-- Gradient used for the arrows and speed lines -->
+    <linearGradient id="gradOrange" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F97316"/>
+      <stop offset="100%" stop-color="#FBBF24"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Circular exchange arrows -->
+  <g id="dynamic-exchange">
+    <!-- Top half arc with gradient stroke -->
+    <path d="M20 30 A20 20 0 0 1 60 30" stroke="url(#gradOrange)" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <!-- Arrowhead for top arc -->
+    <path d="M60 30 L54 24 L54 36 Z" fill="url(#gradOrange)"/>
+    <!-- Bottom half arc with gradient stroke -->
+    <path d="M60 30 A20 20 0 0 1 20 30" stroke="url(#gradOrange)" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <!-- Arrowhead for bottom arc -->
+    <path d="M20 30 L26 24 L26 36 Z" fill="url(#gradOrange)"/>
+  </g>
+
+  <!-- Speed lines behind the car -->
+  <g id="speed-lines">
+    <line x1="8" y1="24" x2="20" y2="24" stroke="url(#gradOrange)" stroke-width="2" stroke-linecap="round"/>
+    <line x1="8" y1="28" x2="18" y2="28" stroke="url(#gradOrange)" stroke-width="2" stroke-linecap="round"/>
+    <line x1="8" y1="32" x2="16" y2="32" stroke="url(#gradOrange)" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <!-- Car silhouette -->
+  <g id="car">
+    <!-- Body -->
+    <rect x="30" y="28" width="20" height="8" rx="2" fill="#3C2B1F"/>
+    <!-- Roof -->
+    <path d="M32 28 L36 22 L44 22 L48 28 Z" fill="#3C2B1F"/>
+    <!-- Wheels -->
+    <circle cx="34" cy="38" r="3" fill="#F97316"/>
+    <circle cx="46" cy="38" r="3" fill="#F97316"/>
+  </g>
+
+  <!-- Brand name -->
+  <text x="90" y="40" font-family="Arial, sans-serif" font-size="26" font-style="italic" font-weight="700">
+    <tspan fill="#F97316">Car</tspan><tspan fill="#3C2B1F">Kinbo</tspan>
+  </text>
+</svg>
